@@ -753,6 +753,7 @@ main {
           filter: grayscale(1);
 }
 .instagram__item:hover, .instagram__item._active:hover {
+  overflow: hidden;
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
   -webkit-filter: grayscale(0);
